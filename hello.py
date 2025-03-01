@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-import human as h
+from human import Human
 
 def add(x,y):
 	return x+y
@@ -18,11 +18,12 @@ def main():
 	print(f"{x} + {y} =",add(x,y))
 	print(f"{x}*{y}=",mult(x,y))
 
-	l = h.Human()
-	k = h.Human("Kevin")
-	m = h.Human("Marianne",2)
+	l = Human()
+	k = Human("Kevin")
+	m = Human("Marianne",2)
 
 	k.say("hello")
+	m.say("hi Kevin")
 
 if __name__ == '__main__':
 	main()
