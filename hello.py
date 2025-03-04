@@ -19,8 +19,8 @@ def main():
 	y = 3
 
 	print(f"{x} + {y} =",add(x,y))
-	print(f"{x}*{y}=",mult(x,y))
-	print(f"{x}^{y}=",exponentiate(x,y))
+	print(f"{x} * {y} =",mult(x,y))
+	print(f"{x} ^ {y} =",exponentiate(x,y))
 
 
 	l = Human()
