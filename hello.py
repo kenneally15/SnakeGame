@@ -8,6 +8,9 @@ def add(x,y):
 def mult(x,y):
 	return x*y
 
+def exponentiate(x,y):
+	return x**y
+
 def main():
 	print("Hello world!")
 	print("Test script")
@@ -17,6 +20,8 @@ def main():
 
 	print(f"{x} + {y} =",add(x,y))
 	print(f"{x}*{y}=",mult(x,y))
+	print(f"{x}^{y}=",exponentiate(x,y))
+
 
 	l = Human()
 	k = Human("Kevin")
